@@ -182,3 +182,9 @@ map("n", "<leader><tab><tab>", "<cmd>tabnew<cr>", { desc = "New Tab" })
 map("n", "<leader><tab>]", "<cmd>tabnext<cr>", { desc = "Next Tab" })
 map("n", "<leader><tab>d", "<cmd>tabclose<cr>", { desc = "Close Tab" })
 map("n", "<leader><tab>[", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
+
+-- tmux
+map("n", "<C-h>", ":TmuxNavigateLeft<CR>")
+map("n", "<C-l>", ":TmuxNavigateRight<CR>")
+map("n", "<C-j>", ":TmuxNavigateDown<CR>")
+map("n", "<C-k>", ":TmuxNavigateUp<CR>")
