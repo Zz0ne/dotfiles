@@ -188,3 +188,7 @@ map("n", "<C-h>", ":TmuxNavigateLeft<CR>")
 map("n", "<C-l>", ":TmuxNavigateRight<CR>")
 map("n", "<C-j>", ":TmuxNavigateDown<CR>")
 map("n", "<C-k>", ":TmuxNavigateUp<CR>")
+
+-- Prevent yanked text from being overwritten when pasting in visual mode
+vim.api.nvim_set_keymap('v', 'p', '"_dP', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', 'P', '"_dP', { noremap = true, silent = true })
