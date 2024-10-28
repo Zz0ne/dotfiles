@@ -12,10 +12,13 @@ return {
   },
   { "xiantang/darcula-dark.nvim" },
   { "AlexvZyl/nordic.nvim" },
+  { "sainnhe/gruvbox-material" },
+  { "rebelot/kanagawa.nvim" },
+
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "gruvbox-material",
     },
   },
 }
