@@ -14,11 +14,13 @@ return {
   { "AlexvZyl/nordic.nvim" },
   { "sainnhe/gruvbox-material" },
   { "rebelot/kanagawa.nvim" },
+  { "alljokecake/naysayer-theme.nvim" },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox-material",
+      -- colorscheme = "tokyonight-storm",
+      colorscheme = "naysayer",
     },
   },
 }
